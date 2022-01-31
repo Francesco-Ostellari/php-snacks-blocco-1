@@ -4,7 +4,7 @@
   while (count($array) < 15){
     $numberRand = rand(1, 100);
     if (!in_array($numberRand, $array)) {
-        $array[] = $numberRand;
+      $array[] = $numberRand;
     }
   }
 ?>
